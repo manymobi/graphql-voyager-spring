@@ -7,13 +7,13 @@ Support for using GraphQL Voyager in Spring boot apps
     ```xml
     <dependency>
         <groupId>com.manymobi</groupId>
-        <artifactId>graphql-voyage-spring-boot-starter</artifactId>
+        <artifactId>graphql-voyager-spring-boot-starter</artifactId>
         <version>1.0.0</version>
     </dependency>
     ```
 -   Gradle
     ```groovy
-    implementation('com.manymobi:graphql-voyage-spring-boot-starter:1.0.0')
+    implementation('com.manymobi:graphql-voyager-spring-boot-starter:1.0.0')
     ```
 
 GraphQL Voyager endpoint HTTP GET /graphql-voyager

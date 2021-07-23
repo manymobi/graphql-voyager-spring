@@ -20,11 +20,11 @@ publishing {
         mavenJava(MavenPublication) {
             from components.java
             groupId = "com.manymobi"
-            artifactId = "graphql-voyage-spring-boot-starter"
+            artifactId = "graphql-voyager-spring-boot-starter"
             pom {
-                name = 'graphql-voyage-spring-boot-starter'
-                description = 'graphql-voyage-spring-boot-starter'
-                url = 'https://github.com/manymobi/graphql-voyage-spring'
+                name = 'graphql-voyager-spring-boot-starter'
+                description = 'graphql-voyager-spring-boot-starter'
+                url = 'https://github.com/manymobi/graphql-voyager-spring'
                 licenses {
                     license {
                         name = 'The Apache License, Version 2.0'
@@ -39,9 +39,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'scm:git:git://github.com/manymobi/graphql-voyage-spring.git'
-                    developerConnection = 'scm:git:ssh://github.com/manymobi/graphql-voyage-spring.git'
-                    url = 'https://github.com/manymobi/graphql-voyage-spring'
+                    connection = 'scm:git:git://github.com/manymobi/graphql-voyager-spring.git'
+                    developerConnection = 'scm:git:ssh://github.com/manymobi/graphql-voyager-spring.git'
+                    url = 'https://github.com/manymobi/graphql-voyager-spring'
                 }
             }
         }
