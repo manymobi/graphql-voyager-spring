@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+apply from: 'upload.gradle'
+
+group = 'com.manymobi'
+version = '1.0.0'
+sourceCompatibility = '8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly("org.springframework:spring-webflux:5.3.8")
+    compileOnly("org.springframework:spring-webmvc:5.3.8")
+    compileOnly("org.springframework.boot:spring-boot-autoconfigure:2.5.2")
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor:2.5.3'
+}
+
+test {
+    useJUnitPlatform()
+}

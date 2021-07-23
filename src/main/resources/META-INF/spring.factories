@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.manymobi.graphql.voyager.spring.boot.autoconfigure.GraphQlVoyagerWebFluxAutoConfiguration,\
+  com.manymobi.graphql.voyager.spring.boot.autoconfigure.GraphQlVoyagerWebMvcAutoConfiguration
